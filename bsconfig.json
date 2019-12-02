@@ -1,0 +1,32 @@
+{
+  "name": "bs-callbag-batteries",
+  "version": "0.1.0",
+  "sources": [{
+    "dir" : "src",
+    "subdirs" : true
+  }, {
+    "dir" : "test",
+    "type": "dev",
+    "subdirs" : true
+  }],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": false
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "@ristostevcev/bs-callbag",
+    "@ristostevcev/bs-callbag-basics",
+    "bs-callbag-to-array",
+    "bs-callbag-to-promise",
+    "bs-callbag-from-readline",
+    "bs-callbag-last",
+  ],
+  "bs-dev-dependencies": [
+    "bs-mocha"
+  ],
+  "warnings": {
+    "error" : "+101"
+  },
+  "refmt": 3
+}
